@@ -38,4 +38,5 @@ console.log(`Selected course: R{course.title}`);
 Purpose: Logs the values of dynamically generated items (like a list of courses). Useful for verifying that the app responds to dynamic input correctly.
 youtube links:
 https://youtu.be/iYFsYPpeuk8?si=ue9sexvXGRblQoY8
+
 https://youtu.be/DRXanwc_d_I?si=trPK9onyDQ44qt44 
