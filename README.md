@@ -14,29 +14,22 @@ Example: console.log('HomeScreen rendered')
 Purpose: Confirms that a particular screen is loaded. If a screen doesn't appear, the absence of this log indicates a rendering issue.
 2. Navigation Logs
 Example:
-tsx
-Copy code
 console.log('Navigating to SixMonthCoursesScreen');
 Purpose: Ensures the navigation functions are triggered correctly and the app is transitioning to the intended screen. Useful for identifying broken links or misconfigured navigation.
 3. Data Passing Logs
 Example:
-tsx
-Copy code
 console.log(`Course Title: R{course.title}, Fee: R{course.fee}`);
 Purpose: Confirms the data passed between components, such as when a course's details are sent to the CourseDetailsScreen. This helps ensure no critical information is lost or misinterpreted.
 4. Action-Specific Logs
 Example:
-tsx
-Copy code
 console.log('Calculator button clicked');
 Purpose: Tracks user interactions with buttons or other UI elements. Helps debug actions that should trigger certain behaviors, like calculating fees.
 6. Dynamic Logs
 Example:
-tsx
-Copy code
 console.log(`Selected course: R{course.title}`);
 Purpose: Logs the values of dynamically generated items (like a list of courses). Useful for verifying that the app responds to dynamic input correctly.
 youtube links:
+
 https://youtu.be/iYFsYPpeuk8?si=ue9sexvXGRblQoY8
 
 https://youtu.be/DRXanwc_d_I?si=trPK9onyDQ44qt44 
