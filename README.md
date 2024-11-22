@@ -7,7 +7,7 @@ Logs can track what users do, such as selecting a course or navigating to a spec
 For example: console.log('Selected course: First Aid') ensures that the user’s selection is captured.
 Validating Data Flow:
 Logs can confirm whether data is correctly passed between screens, such as course details or calculated fees.
-For example: console.log(\Course Title: ${course.title}, Fee: R${course.fee}`)`.
+For example: console.log(\Course Title: R{course.title}, Fee: R{course.fee}`)`.
 Logging in Different Components
 1. Screen Rendering Logs
 Example: console.log('HomeScreen rendered')
@@ -22,22 +22,20 @@ Purpose: Ensures the navigation functions are triggered correctly and the app is
 Example:
 tsx
 Copy code
-console.log(`Course Title: ${course.title}, Fee: R${course.fee}`);
+console.log(`Course Title: R{course.title}, Fee: R{course.fee}`);
 Purpose: Confirms the data passed between components, such as when a course's details are sent to the CourseDetailsScreen. This helps ensure no critical information is lost or misinterpreted.
 4. Action-Specific Logs
 Example:
 tsx
 Copy code
 console.log('Calculator button clicked');
-
-
-
-youtube links:
-https://youtu.be/iYFsYPpeuk8?si=ue9sexvXGRblQoY8  
 Purpose: Tracks user interactions with buttons or other UI elements. Helps debug actions that should trigger certain behaviors, like calculating fees.
 6. Dynamic Logs
 Example:
 tsx
 Copy code
-console.log(`Selected course: ${course.title}`);
+console.log(`Selected course: R{course.title}`);
 Purpose: Logs the values of dynamically generated items (like a list of courses). Useful for verifying that the app responds to dynamic input correctly.
+youtube links:
+https://youtu.be/iYFsYPpeuk8?si=ue9sexvXGRblQoY8
+https://youtu.be/DRXanwc_d_I?si=trPK9onyDQ44qt44 
