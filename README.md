@@ -28,6 +28,7 @@ Purpose: Tracks user interactions with buttons or other UI elements. Helps debug
 Example:
 console.log(`Selected course: R{course.title}`);
 Purpose: Logs the values of dynamically generated items (like a list of courses). Useful for verifying that the app responds to dynamic input correctly.
+
 youtube links:
 
 https://youtu.be/iYFsYPpeuk8?si=ue9sexvXGRblQoY8
