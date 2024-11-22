@@ -29,8 +29,13 @@ Example:
 tsx
 Copy code
 console.log('Calculator button clicked');
+
+
+
+youtube links:
+https://youtu.be/iYFsYPpeuk8?si=ue9sexvXGRblQoY8  
 Purpose: Tracks user interactions with buttons or other UI elements. Helps debug actions that should trigger certain behaviors, like calculating fees.
-5. Dynamic Logs
+6. Dynamic Logs
 Example:
 tsx
 Copy code
